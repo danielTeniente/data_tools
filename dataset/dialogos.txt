@@ -1,0 +1,6 @@
+﻿{"Novela":"Cementerio de animales","Conversación":"cv0","Nombre personaje":"Rachel","Línea":"¿Es ésta?"}
+{"Novela":"Cementerio de animales","Conversación":"cv0","Nombre personaje":"Louis","Línea":"Esta es."}
+{"Novela":"Cementerio de animales","Conversación":"cv1","Nombre personaje":"Louis","Línea":"¿Qué te parece?"}
+{"Novela":"Cementerio de animales","Conversación":"cv1","Nombre personaje":"Rachel","Línea":"Me parece preciosa."}
+{"Novela":"Cementerio de animales","Conversación":"cv2","Nombre personaje":"Ellie","Línea":"¿Papá?"}
+{"Novela":"Cementerio de animales","Conversación":"cv2","Nombre personaje":"Louis","Línea":"¿Qué quieres, cielo?"}
