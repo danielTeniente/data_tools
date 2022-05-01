@@ -4,6 +4,15 @@ import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 
+# diccionario para eliminar tildes
+change_char = {
+    'á':'a',
+    'é':'e',
+    'í':'i',
+    'ó':'o',
+    'ú':'u'
+}
+
 # función principal
 def main():
     parser = argparse.ArgumentParser(description="Clean a TXT text")
@@ -15,6 +24,11 @@ def main():
 
 # función para limpiar un los diálogos del dataset
 def clean_text(dataset_object):
+    text = dataset_object['Línea']
+    # cleaning
+    text = text.lower().replace(',','').replace('?','').replace('¿','')
+    text = [change_char[char] if char in change_char.keys() else char for char in list(text)]
+    dataset_object['Línea'] = "".join(text)
     return dataset_object
 
 # ejecuta el pipeline

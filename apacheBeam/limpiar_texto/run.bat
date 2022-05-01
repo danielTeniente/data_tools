@@ -1,0 +1,1 @@
+python ./pipeline_example.py --input_file ..\..\dataset\dialogos.txt --output_file clean_text.txt
