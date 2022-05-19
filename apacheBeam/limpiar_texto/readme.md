@@ -11,7 +11,7 @@ El código completo está en [este archivo](./pipeline_example.py).
 
 ## Explicación
 
-La función `main()` es el inicio del programa. Se argumentos mediante la línea de comandos y se inicializan las variables de ApacheBeam.
+La función `main()` es el inicio del programa. Se envian argumentos mediante la línea de comandos y se inicializan las variables de ApacheBeam.
 
 Al final, se llama a la función `run_pipeline(args, beam_args)`
 
